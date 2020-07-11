@@ -30,7 +30,7 @@ namespace MemorySharp
         
         public MemorySharp(string ProcessName)
         {
-            ProcessName = _processName;
+            _processName = ProcessName;
         }
         
 #pragma warning disable 162
